@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".testQuestionFrag">
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar3"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="119dp"
+        android:layout_height="102dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="87dp"
+        android:layout_toStartOf="@+id/textView3"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="111dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="99dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progress_bar3"
+        android:layout_marginBottom="71dp"
+        android:ems="10"
+        android:hint="enter question"/>
+
+
+</RelativeLayout>
